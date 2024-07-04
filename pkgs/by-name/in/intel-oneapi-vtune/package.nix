@@ -12,6 +12,7 @@
   glib,
   gtk3,
   kmod,
+  wrapGAppsHook,
   lib,
   libdrm,
   libndctl,
@@ -46,6 +47,7 @@ stdenv.mkDerivation (finalAttrs: {
     p7zip
     autoPatchelfHook
     file-rename
+    wrapGAppsHook
   ];
 
   buildInputs = [
