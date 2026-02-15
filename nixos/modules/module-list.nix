@@ -341,6 +341,7 @@
   ./programs/virt-manager.nix
   ./programs/vivid.nix
   ./programs/vscode.nix
+  ./programs/vtune.nix
   ./programs/wavemon.nix
   ./programs/wayland/dms-shell.nix
   ./programs/wayland/dwl.nix
